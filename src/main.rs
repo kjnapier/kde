@@ -1,4 +1,4 @@
-use rand::Rng;
+use rand;
 use rand_distr::{Distribution, Normal};
 use std::time::Instant;
 use rayon::prelude::*;
